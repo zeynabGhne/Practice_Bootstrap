@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.rtl.min.css" 
-        integrity="sha384-Xbg45MqvDIk1e563NLpGEulpX6AvL404DP+/iCgW9eFa2BqztiwTexswJo2jLMue" 
-        crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <link rel="icon" type="image/png" href="images/favicon-32x32.png">
     
@@ -17,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white mt-5">
         <div class="container d-flex justify-content-between align-items-center">
         
-            <img src="images/logo.svg" alt="Logo" style="width: 120px;">
+            <img class="img-fluid" src="images/logo.svg" alt="Logo" style="width: 120px;">
 
             <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
                 <li class="nav-item">
@@ -39,17 +41,33 @@
     <!-- add section1 -->
     <section class="mt-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h1> All your files in one secure location, accessible anywhere.</h1>
-                    <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+            <div class="row gy-5 align-items-center">
+            <!-- ستون عکس -->
+            <div class="col-md-6 order-1 order-md-2">
+                <img class="w-100 img-fluid" src="images/illustration-1.svg" alt="Illustration">
+            </div>
+
+            <!-- ستون متن -->
+            <div class="col-md-6 order-2 order-md-1 text-center text-md-start">
+                <h1>All your files in one secure location, accessible anywhere.</h1>
+                <p class="my-4 my-md-2">
+                Fylo stores your most important files in one secure location. Access them wherever you need,
+                share and collaborate with friends, family, and co-workers.
+                </p>
+
+                <form class="row g-3">
+                <div class="col-12 col-md-auto">
+                    <input type="email" class="form-control border border-dark rounded-1 w-100" id="inputEmail" placeholder="Enter your email..." style="width: 100%; height: 40px;">
                 </div>
-                <div class="col-md-6">
-                    <img class="w-100 img-fluid" src="images/illustration-1.svg">
+                <div class="col-12 col-md-auto">
+                    <button type="submit" class="btn btn-primary mb-3 border rounded-1 w-100" style="width: 150px; height: 40px;">Get Started</button>
                 </div>
+                </form>
+            </div>
             </div>
         </div>
     </section>
+
 
 
 

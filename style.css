@@ -1,3 +1,15 @@
 #inputEmail::placeholder {
   color: #aaa;
 }
+
+/* style section2 */
+
+.section2-bg {
+  background-color: hsl(240, 75%, 98%);
+}
+
+.wave-separator img {
+  display: block;
+  width: 100%;
+  margin-bottom: -5px;
+}

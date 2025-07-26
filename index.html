@@ -1,129 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
-    
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+
     <title>practice</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white mt-5">
-        <div class="container d-flex justify-content-between align-items-center">
-        
-            <img class="img-fluid" src="images/logo.svg" alt="Logo" style="width: 120px;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white mt-5">
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <img
+            class="img-fluid"
+            src="images/logo.svg"
+            alt="Logo"
+            style="width: 120px"
+          />
 
-            <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Feature</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign In</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-</header>
-
-
+      </nav>
+    </header>
 
     <!-- add section1 -->
     <section class="mt-5">
-        <div class="container">
-            <div class="row gy-5 align-items-center">
-            
-            <!-- image -->
-            <div class="col-md-6 order-1 order-md-2">
-                <img class="w-100 img-fluid" src="images/illustration-1.svg" alt="Illustration">
-            </div>
+      <div class="container">
+        <div class="row gy-5 align-items-center">
+          <!-- image -->
+          <div class="col-md-6 order-1 order-md-2">
+            <img
+              class="w-100 img-fluid"
+              src="images/illustration-1.svg"
+              alt="Illustration"
+            />
+          </div>
 
-            <!-- text -->
-            <div class="col-md-6 order-2 order-md-1 text-center text-md-start">
-                <h1>All your files in one secure location, accessible anywhere.</h1>
-                <p class="my-4 my-md-2">
-                Fylo stores your most important files in one secure location. Access them wherever you need,
-                share and collaborate with friends, family, and co-workers.
-                </p>
+          <!-- text -->
+          <div class="col-md-6 order-2 order-md-1 text-center text-md-start">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p class="my-4 my-md-2">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
 
-                <form class="row g-3 text-align-center">
-                <div class="col-12 col-md-7">
-                    <input type="email" class="form-control border border-dark rounded-1 w-100" placeholder="Enter your email...">
-                </div>
-                <div class="col-12 col-md-5">
-                    <button type="submit" class="btn btn-primary border border-primary rounded-1 w-100" >Get Started</button>
-                </div>
-                </form>
-            </div>
-            </div>
+            <form class="row g-3 text-align-center">
+              <div class="col-12 col-md-7">
+                <input
+                  type="email"
+                  class="form-control border border-dark rounded-1 w-100"
+                  id="inputEmail"
+                  placeholder="Enter your email..."
+                />
+              </div>
+              <div class="col-12 col-md-5">
+                <button
+                  type="submit"
+                  class="btn btn-primary border border-primary rounded-1 w-100"
+                >
+                  Get Started
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
-
-
 
     <!-- add section2 -->
     <!-- Curve image separator -->
-        <div class="wave-separator mt-5">
-        <img src="images/bg-curve-desktop.svg" alt="curve" class="w-100">
-        </div>
+    <div class="wave-separator mt-5">
+      <img
+        src="images/bg-curve-desktop.svg"
+        alt="curve"
+        class="w-100 img-fluid d-none d-md-block"
+      />
+      <img
+        src="images/bg-curve-mobile.svg"
+        alt="curve"
+        class="w-100 img-fluid d-block d-md-none"
+      />
+    </div>
 
-        <!-- Section with background color -->
-        <section class="section2-bg py-5">
-        <div class="container">
-            <div class="row">
-            <div class="col-md-6">
-                <h1>Stay productive, wherever you are</h1>
-                <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-                <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+    <!-- Section with background color -->
+    <section class="section2-bg py-5 gy-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2 order-md-1">
+            <h1 class="text-center text-md-start">
+              Stay productive, wherever you are
+            </h1>
+            <p>
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p>
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
 
-                <!-- link -->
-                <a href="#" class="text-color text-decoration-underline" style="text-underline-offset: 8px;">
-                    See how Fylo work
-                    <img src="images/icon-arrow.svg">
-                </a>
-                <!-- box -->
-                <div class="row mt-5">
-                    <div class="col-md-7 box-color border rounded-2 shadow-lg">
-                        <div class="container ms-2 mt-3">
-                            <img class="mb-2" src="images/icon-quotes.svg" width="20px">
+            <!-- link -->
+            <a
+              href="#"
+              class="text-color text-decoration-none border-bottom pb-1"
+            >
+              See how Fylo work
+              <img src="images/icon-arrow.svg" />
+            </a>
+            <!-- box -->
+            <div class="row mt-5">
+              <div class="col-md-7 box-color border rounded-2 shadow-lg">
+                <div class="container ms-2 mt-3">
+                  <img class="mb-2" src="images/icon-quotes.svg" width="20px" />
 
-                            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                  <p>
+                    Fylo has improved our team productivity by an order of
+                    magnitude. Since making the switch our team has become a
+                    well-oiled collaboration machine.
+                  </p>
 
-                            <div class="row d-flex align-items-center">
-                                <div class="col-md-2"><img class="rounded-circle w-100 mb-4 me-0" src="images/avatar-testimonial.jpg" style="width: 30px; height: 40px"></div>
-                                <div class="col-md-10">
-                                    <p class="fw-bold mb-0"> Kyle Burton</p>
-                                    <h6 class="small mt-0 mb-4"> Founder & CEO, Huddle</h6>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="row d-flex align-items-center">
+                    <div class="col-2">
+                      <img
+                        class="rounded-circle mb-4 me-0"
+                        src="images/avatar-testimonial.jpg"
+                        style="width: 40px"
+                      />
                     </div>
+                    <div class="col-10">
+                      <p class="fw-bold mb-0">Kyle Burton</p>
+                      <h6 class="small mt-0 mb-4 text-muted">
+                        Founder & CEO, Huddle
+                      </h6>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
 
-            <div class="col-md-6">
-                <img class="w-100 ms-5" src="images/illustration-2.svg" alt="illustration">
-            </div>
-            </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <img
+              class="img-fluid m ms-md-5"
+              src="images/illustration-2.svg"
+              alt="illustration"
+            />
+          </div>
         </div>
-        </section>
+      </div>
+    </section>
 
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -43,4 +43,20 @@
 
 }
 
+/* style footer */
+.back-color-footer{
+      background-color: hsl(243, 87%, 12%);
+
+}
+
+.logo-white {
+  filter: brightness(0) invert(1); 
+}
+
+.footer-item {
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+
 

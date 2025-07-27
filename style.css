@@ -18,6 +18,13 @@
   color: hsl(170, 45%, 43%);
 }
 
+.border-bottom {
+  border-bottom-color: hsl(170, 45%, 43%) !important;
+}
+
+
 .box-color{
   background-color: white;
 }
+
+

@@ -30,4 +30,11 @@
 }
 
 
-
+/* style section3 */
+.full-width{
+    background-color: hsl(238, 22%, 44%);
+    width: 100%;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 15px;
+    padding-right: 15px;
+  }

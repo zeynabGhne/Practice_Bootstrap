@@ -6,6 +6,8 @@
 
 .section2-bg {
   background-color: hsl(240, 75%, 98%);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .wave-separator img {
@@ -26,5 +28,6 @@
 .box-color{
   background-color: white;
 }
+
 
 

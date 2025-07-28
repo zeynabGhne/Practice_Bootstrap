@@ -59,11 +59,11 @@
 }
 
 
-   .icon-hover:hover {
+.icon-hover:hover {
     background-color: #074eb9 !important; /* Bootstrap blue */
     color: #fff;
     border-color: #084fb8 !important ;
-  }
+}
 
 
 

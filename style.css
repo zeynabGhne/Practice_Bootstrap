@@ -33,14 +33,12 @@
 /* style section3 */
 .full-width{
     width: 100%;
-    margin-left: calc(-50vw + 50%);
     padding-left: 15px;
     padding-right: 15px;
   }
 
 .back-color-section3{
       background-color: hsl(238, 22%, 44%);
-
 }
 
 /* style footer */

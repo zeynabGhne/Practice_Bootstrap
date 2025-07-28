@@ -1,5 +1,6 @@
 .scrollable {
   overflow-y: auto;
+  height: 100vh;
 
   &::-webkit-scrollbar {
     width: 8px;
@@ -10,11 +11,16 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #0d6efd; 
+    background-color: #274169; 
     border-radius: 8px;
 
     &:hover {
-      background-color: #0b5ed7; 
+      background-color: #607da8; 
     }
   }
 }
+
+body {
+  overflow: hidden;
+}
+

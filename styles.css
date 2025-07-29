@@ -1,6 +1,6 @@
 .scrollable {
   overflow-y: auto;
-  height: 100vh;
+  max-height: 100vh;
 }
 .scrollable::-webkit-scrollbar {
   width: 8px;

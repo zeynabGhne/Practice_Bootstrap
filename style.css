@@ -1,3 +1,14 @@
+@font-face {
+  font-family: myhead;
+  src: url(font/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: mybody;
+  src: url(font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
 #inputEmail::placeholder {
   color: #aaa;
 }
@@ -64,4 +75,14 @@
 }
 
 
+/* font */
+a, h1, h2, h5, h6 {
+  font-family: myhead;
+  font-weight: 400px;
+}
 
+
+p, span{
+  font-family: mybody;
+  font-weight: 700px;
+}
